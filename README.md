@@ -25,9 +25,9 @@ $$MATCH\ p = (reg:Regulation) - \left\lbrack :{HAS}_{ARTICLE} \right\rbrack \rig
 $$RETURN\ p$$
 
 
-![Figure 1. Visualization in Neo4j browser.](images/image1.png){width="5.892828083989501in" height="2.414850174978128in"}![Figure 1. Visualization in Neo4j browser. (2)](images/image2.png){width="5.892828083989501in" height="2.414850174978128in"}
+![Figure 1. Visualization in Neo4j browser.](images/image1.png)![Figure 1. Visualization in Neo4j browser. (2)](images/image2.png)
 From the figure above, we can see 6 clusters, one per document. The core node (yellow) is the regulation, the red nodes are the article, and green nodes are the rule. The final graph contains 6 Regulation nodes, 159 Article nodes, and 322 Rule nodes, all correctly connected with no orphaned nodes.
-![Figure 2. Properties of nodes in Neo4j browser.](images/image3.png){width="5.0in" height="25"}
+![Figure 2. Properties of nodes in Neo4j browser.](images/image3.png)
 
 3.  **Key Cypher query design and retrieval strategy**
 
