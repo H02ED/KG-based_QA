@@ -1,0 +1,19 @@
+# PDF Processing
+pdfplumber
+
+# Graph Database Driver
+neo4j
+
+# LLM Framework
+langchain
+langchain-core
+
+# HuggingFace – local model inference (replaces Gemini API)
+langchain-huggingface   # ChatHuggingFace + HuggingFacePipeline
+transformers            # model loading
+torch                   # inference backend (CPU or CUDA)
+accelerate              # required by transformers device_map=auto
+sentencepiece           # tokeniser for some models (e.g. LLaMA, Phi)
+
+# Environment Variables Management
+python-dotenv
